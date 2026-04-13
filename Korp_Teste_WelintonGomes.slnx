@@ -1,0 +1,26 @@
+<Solution>
+  <Folder Name="/FrontEnd/">
+    <Project Path="stock-front-end/stock-front-end.esproj">
+      <Build />
+      <Deploy />
+    </Project>
+  </Folder>
+  <Folder Name="/Itens de Solução/">
+    <File Path="../../OneDrive/Área de Trabalho/docker-compose.yml" />
+    <File Path="Init-db.sh" />
+  </Folder>
+  <Folder Name="/Services/" />
+  <Folder Name="/Services/NotaFiscalService/">
+    <Project Path="Nota_Fiscal.API/Nota_Fiscal.API.csproj" Id="afd03175-32c6-4148-aba2-bb5d5ea7c1ae" />
+    <Project Path="Nota_Fiscal.application/Nota_Fiscal.application.csproj" />
+    <Project Path="Nota_Fiscal.Domain/Nota_Fiscal.Domain.csproj" />
+    <Project Path="Nota_Fiscal.Infrastructure/Nota_Fiscal.Infrastructure.csproj" Id="19e3f128-9adc-4ac6-bc51-92e9605bb064" />
+  </Folder>
+  <Folder Name="/Services/StockService/">
+    <Project Path="Korp_Teste_WelintonGomes/Stock_API.csproj" />
+    <Project Path="Stock.Application/Stock.Application.csproj" />
+    <Project Path="Stock.Infraestructure/Stock.Infraestructure.csproj" />
+    <Project Path="StockDomain/Stock.Domain.csproj" />
+  </Folder>
+  <Project Path="Service.Gateway/Service.Gateway.csproj" Id="42be0a4d-56e1-4c78-8eee-abb566cf4b2a" />
+</Solution>

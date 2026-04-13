@@ -1,0 +1,12 @@
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\StockDomain\bin\Debug\net9.0\Stock.Domain.deps.json
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\StockDomain\bin\Debug\net9.0\Stock.Domain.dll
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\StockDomain\bin\Debug\net9.0\Stock.Domain.pdb
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\StockDomain\obj\Debug\net9.0\Stock.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\StockDomain\obj\Debug\net9.0\Stock.Domain.AssemblyInfoInputs.cache
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\StockDomain\obj\Debug\net9.0\Stock.Domain.AssemblyInfo.cs
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\StockDomain\obj\Debug\net9.0\Stock.Domain.csproj.CoreCompileInputs.cache
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\StockDomain\obj\Debug\net9.0\Stock.Domain.sourcelink.json
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\StockDomain\obj\Debug\net9.0\Stock.Domain.dll
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\StockDomain\obj\Debug\net9.0\refint\Stock.Domain.dll
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\StockDomain\obj\Debug\net9.0\Stock.Domain.pdb
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\StockDomain\obj\Debug\net9.0\ref\Stock.Domain.dll

@@ -1,0 +1,16 @@
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.application\bin\Debug\net9.0\Nota_Fiscal.application.deps.json
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.application\bin\Debug\net9.0\Nota_Fiscal.application.dll
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.application\bin\Debug\net9.0\Nota_Fiscal.application.pdb
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.application\bin\Debug\net9.0\Nota_Fiscal.Domain.dll
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.application\bin\Debug\net9.0\Nota_Fiscal.Domain.pdb
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.application\obj\Debug\net9.0\Nota_Fiscal.application.csproj.AssemblyReference.cache
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.application\obj\Debug\net9.0\Nota_Fiscal.application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.application\obj\Debug\net9.0\Nota_Fiscal.application.AssemblyInfoInputs.cache
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.application\obj\Debug\net9.0\Nota_Fiscal.application.AssemblyInfo.cs
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.application\obj\Debug\net9.0\Nota_Fiscal.application.csproj.CoreCompileInputs.cache
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.application\obj\Debug\net9.0\Nota_Fiscal.application.sourcelink.json
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.application\obj\Debug\net9.0\Nota_Fis.6F31C8CD.Up2Date
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.application\obj\Debug\net9.0\Nota_Fiscal.application.dll
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.application\obj\Debug\net9.0\refint\Nota_Fiscal.application.dll
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.application\obj\Debug\net9.0\Nota_Fiscal.application.pdb
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.application\obj\Debug\net9.0\ref\Nota_Fiscal.application.dll

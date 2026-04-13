@@ -1,0 +1,33 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+
+using Nota_Fiscal.application.Interfaces;
+using Nota_Fiscal.application.Services;
+using Nota_Fiscal.Domain.Interface;
+using Nota_Fiscal.Infraestructure.DataNota;
+using Nota_Fiscal.Infraestructure.Repositories;
+
+
+namespace Nota_Fiscal.Infraestructure.Injection;
+
+public static class DependencyInjection
+{
+    public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
+    {
+        services.AddDbContext<NotaFiscalDbContext>(options =>
+        {
+            options.UseNpgsql(configuration.GetConnectionString("NotaFiscalConnection"),
+               (b => b.MigrationsAssembly(typeof(NotaFiscalDbContext).Assembly.FullName)));
+        });
+
+
+        services.AddScoped<INotaFiscalRepository, NotaFiscalRepository>();
+        services.AddScoped<INotaFiscalItemRepository, NotaFiscalItemRepository>();
+
+        services.AddScoped<INotaFiscalService, NotaFiscalService>();
+        services.AddScoped<INotaFiscalItensService, NotaFiscalItensService>();
+
+        return services;
+    }
+}

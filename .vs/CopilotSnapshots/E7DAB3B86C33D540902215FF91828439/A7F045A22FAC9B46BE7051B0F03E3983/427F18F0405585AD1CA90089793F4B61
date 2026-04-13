@@ -1,0 +1,37 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Nota_Fiscal.Domain.Entities;
+
+namespace Nota_Fiscal.Infraestructure.DataNota;
+
+public class NotaFiscalDbContext : DbContext
+{
+    public NotaFiscalDbContext(DbContextOptions<NotaFiscalDbContext> options) : base(options)
+    {
+    }
+    public DbSet<NotaFiscal> NotasFiscais { get; set; }
+    public DbSet<NotaFiscalItem> NotasFiscaisItens { get; set; }
+     protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+        modelBuilder.Entity<NotaFiscal>(entity =>
+        {
+            entity.HasKey(e => e.Id);
+            entity.Property(e => e.IssuerCnpj).IsRequired();
+            entity.Property(e => e.ClientName).HasMaxLength(200);
+            entity.Property(e => e.Status).IsRequired();
+            entity.Property(e => e.TotalValue).HasColumnType("decimal(18,2)");
+            entity.HasMany(e => e.Items)
+                  .WithOne()
+                  .HasForeignKey(i => i.ProdutoId)
+                  .OnDelete(DeleteBehavior.Cascade);
+        });
+        modelBuilder.Entity<NotaFiscalItem>(entity =>
+        {
+            entity.HasKey(e => e.Id);
+            entity.Property(e => e.ProdutoId).IsRequired();
+            entity.Property(e => e.CodeProduto).HasMaxLength(100);
+            entity.Property(e => e.Quantity).IsRequired();
+            entity.Property(e => e.UnitPrice).HasColumnType("decimal(18,2)");
+        });
+    }   
+}

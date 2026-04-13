@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "L0aqxNluWRk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\welin\\Desafio-BackEnd\\Korp_Teste_WelintonGomes\\Stock.Application\\Stock.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\welin\\.nuget\\packages\\refit\\9.0.2\\refit.9.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

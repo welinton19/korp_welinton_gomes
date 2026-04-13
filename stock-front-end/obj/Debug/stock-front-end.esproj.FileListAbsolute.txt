@@ -1,0 +1,1 @@
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\stock-front-end\obj\Debug\stock-front-end.esproj.CoreCompileInputs.cache

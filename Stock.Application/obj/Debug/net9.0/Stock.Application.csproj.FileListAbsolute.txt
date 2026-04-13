@@ -1,0 +1,16 @@
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Stock.Application\bin\Debug\net9.0\Stock.Application.deps.json
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Stock.Application\bin\Debug\net9.0\Stock.Application.dll
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Stock.Application\bin\Debug\net9.0\Stock.Application.pdb
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Stock.Application\bin\Debug\net9.0\Stock.Domain.dll
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Stock.Application\bin\Debug\net9.0\Stock.Domain.pdb
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Stock.Application\obj\Debug\net9.0\Stock.Application.csproj.AssemblyReference.cache
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Stock.Application\obj\Debug\net9.0\Stock.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Stock.Application\obj\Debug\net9.0\Stock.Application.AssemblyInfoInputs.cache
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Stock.Application\obj\Debug\net9.0\Stock.Application.AssemblyInfo.cs
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Stock.Application\obj\Debug\net9.0\Stock.Application.csproj.CoreCompileInputs.cache
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Stock.Application\obj\Debug\net9.0\Stock.Application.sourcelink.json
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Stock.Application\obj\Debug\net9.0\Stock.Ap.6973E9C6.Up2Date
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Stock.Application\obj\Debug\net9.0\Stock.Application.dll
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Stock.Application\obj\Debug\net9.0\refint\Stock.Application.dll
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Stock.Application\obj\Debug\net9.0\Stock.Application.pdb
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Stock.Application\obj\Debug\net9.0\ref\Stock.Application.dll

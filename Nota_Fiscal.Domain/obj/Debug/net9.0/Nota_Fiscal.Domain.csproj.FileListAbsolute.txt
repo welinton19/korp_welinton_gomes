@@ -1,0 +1,12 @@
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.Domain\bin\Debug\net9.0\Nota_Fiscal.Domain.deps.json
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.Domain\bin\Debug\net9.0\Nota_Fiscal.Domain.dll
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.Domain\bin\Debug\net9.0\Nota_Fiscal.Domain.pdb
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.Domain\obj\Debug\net9.0\Nota_Fiscal.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.Domain\obj\Debug\net9.0\Nota_Fiscal.Domain.AssemblyInfoInputs.cache
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.Domain\obj\Debug\net9.0\Nota_Fiscal.Domain.AssemblyInfo.cs
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.Domain\obj\Debug\net9.0\Nota_Fiscal.Domain.csproj.CoreCompileInputs.cache
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.Domain\obj\Debug\net9.0\Nota_Fiscal.Domain.sourcelink.json
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.Domain\obj\Debug\net9.0\Nota_Fiscal.Domain.dll
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.Domain\obj\Debug\net9.0\refint\Nota_Fiscal.Domain.dll
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.Domain\obj\Debug\net9.0\Nota_Fiscal.Domain.pdb
+C:\Users\welin\Desafio-BackEnd\Korp_Teste_WelintonGomes\Nota_Fiscal.Domain\obj\Debug\net9.0\ref\Nota_Fiscal.Domain.dll

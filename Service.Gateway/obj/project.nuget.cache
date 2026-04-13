@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Za++l4ERU1A=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\welin\\Desafio-BackEnd\\Korp_Teste_WelintonGomes\\Service.Gateway\\Service.Gateway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\welin\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.14\\microsoft.aspnetcore.openapi.9.0.14.nupkg.sha512",
+    "C:\\Users\\welin\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\welin\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512",
+    "C:\\Users\\welin\\.nuget\\packages\\system.io.hashing\\8.0.0\\system.io.hashing.8.0.0.nupkg.sha512",
+    "C:\\Users\\welin\\.nuget\\packages\\yarp.reverseproxy\\2.3.0\\yarp.reverseproxy.2.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

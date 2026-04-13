@@ -1,0 +1,6 @@
+@Nota_Fiscal_API_HostAddress = http://localhost:5133
+
+GET {{Nota_Fiscal_API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

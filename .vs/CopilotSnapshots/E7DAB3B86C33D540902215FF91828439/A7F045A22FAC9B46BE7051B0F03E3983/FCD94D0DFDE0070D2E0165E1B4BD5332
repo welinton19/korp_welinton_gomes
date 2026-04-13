@@ -1,0 +1,49 @@
+﻿
+using Nota_Fiscal.Domain.Entities;
+using Nota_Fiscal.Domain.Interface;
+using Nota_Fiscal.Infraestructure.DataNota;
+
+namespace Nota_Fiscal.Infraestructure.Repositories;
+
+public class NotaFiscalRepository : INotaFiscalRepository
+{
+    private readonly NotaFiscalDbContext _context;
+
+    public NotaFiscalRepository(NotaFiscalDbContext context)
+    {
+        _context = context;
+    }
+
+    public async Task<NotaFiscal> AddAsync(NotaFiscal notaFiscal)
+    {
+        _context.NotasFiscais.Add(notaFiscal);
+        await _context.SaveChangesAsync();
+        return notaFiscal;
+    }
+
+    public  Task DeleteAsync(Guid id)
+    {
+        _context.Remove(id);
+        _context.SaveChangesAsync();
+        return Task.FromResult(_context.NotasFiscais.FirstOrDefault(x => x.Id == id));
+       
+    }
+
+    public async Task<IEnumerable<NotaFiscal>> GetAllAsync()
+    {
+        _context.NotasFiscais.ToList();
+        return await Task.FromResult(_context.NotasFiscais.ToList());
+    }
+
+    public async Task<NotaFiscal> GetByIdAsync(Guid id)
+    {
+        return await Task.FromResult(_context.NotasFiscais.FirstOrDefault(x => x.Id == id));
+    }
+
+    public async Task<NotaFiscal> UpdateAsync(NotaFiscal notaFiscal)
+    {
+        _context.NotasFiscais.Update(notaFiscal);
+        await _context.SaveChangesAsync();
+        return notaFiscal;
+    }
+}

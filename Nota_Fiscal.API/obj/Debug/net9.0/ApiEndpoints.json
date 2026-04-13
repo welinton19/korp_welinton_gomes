@@ -1,0 +1,139 @@
+[
+  {
+    "ContainingType": "Nota_Fiscal.API.Controlers.NotaFiscalController",
+    "Method": "GetAll",
+    "RelativePath": "api/nota-fiscal/notafiscal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nota_Fiscal.API.Controlers.NotaFiscalController",
+    "Method": "Create",
+    "RelativePath": "api/nota-fiscal/notafiscal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notaFiscalCreateDto",
+        "Type": "Nota_Fiscal.application.DTO.NotaFiscalDTO.NotaFiscalDTO.CreateNotaFiscalDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nota_Fiscal.API.Controlers.NotaFiscalController",
+    "Method": "GetById",
+    "RelativePath": "api/nota-fiscal/notafiscal/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nota_Fiscal.API.Controlers.NotaFiscalController",
+    "Method": "Update",
+    "RelativePath": "api/nota-fiscal/notafiscal/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "notaFiscalUpdateDto",
+        "Type": "Nota_Fiscal.application.DTO.NotaFiscalDTOs.UpdateNotaFiscalDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nota_Fiscal.API.Controlers.NotaFiscalController",
+    "Method": "Delete",
+    "RelativePath": "api/nota-fiscal/notafiscal/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nota_Fiscal.API.Controlers.NotaFiscalItensController",
+    "Method": "GetAll",
+    "RelativePath": "api/nota-fiscal/notafiscalitens",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nota_Fiscal.API.Controlers.NotaFiscalItensController",
+    "Method": "Create",
+    "RelativePath": "api/nota-fiscal/notafiscalitens",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notaFiscalItemDto",
+        "Type": "Nota_Fiscal.application.DTO.NotaFiscalItensDTOs.NotaFiscalItensDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nota_Fiscal.API.Controlers.NotaFiscalItensController",
+    "Method": "GetById",
+    "RelativePath": "api/nota-fiscal/notafiscalitens/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nota_Fiscal.API.Controlers.NotaFiscalItensController",
+    "Method": "Delete",
+    "RelativePath": "api/nota-fiscal/notafiscalitens/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

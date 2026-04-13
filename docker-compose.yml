@@ -1,0 +1,97 @@
+version: '3.8'
+
+services:
+
+  postgres:
+    image: postgres:16
+    container_name: korp-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 25bbg20lk@W
+      POSTGRES_MULTIPLE_DATABASES: Stock,NotaFiscal
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
+    networks:
+      - korp-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  stock-service:
+    build:
+      context: .
+      dockerfile: Korp_Teste_WelintonGomes/Dockerfile
+    container_name: korp-stock-service
+    ports:
+      - "5001:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ConnectionStrings__StockConnection: "Host=postgres;Port=5432;Database=Stock;Username=postgres;Password=25bbg20lk@W;"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - korp-network
+
+  nota-fiscal-service:
+    build:
+      context: .
+      dockerfile: Nota_Fiscal.API/Dockerfile
+    container_name: korp-nota-fiscal-service
+    ports:
+      - "5002:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ConnectionStrings__NotaFiscalConnection: "Host=postgres;Port=5432;Database=NotaFiscal;Username=postgres;Password=25bbg20lk@W;"
+      ApiSettings__StockUrl: "http://stock-service:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      stock-service:
+        condition: service_started
+    networks:
+      - korp-network
+
+  gateway:
+    build:
+      context: .
+      dockerfile: Service.Gateway/Dockerfile
+    container_name: korp-gateway
+    ports:
+      - "5000:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ReverseProxy__Clusters__stock-cluster1__Destinations__stock-destination1__Address: "http://stock-service:8080/"
+      ReverseProxy__Clusters__nota-fiscal-cluster1__Destinations__nota-fiscal-destination1__Address: "http://nota-fiscal-service:8080/"
+    depends_on:
+      - stock-service
+      - nota-fiscal-service
+    networks:
+      - korp-network
+
+  frontend:
+    build:
+      context: ./stock-front-end
+      dockerfile: Dockerfile
+    container_name: korp-frontend
+    ports:
+      - "4200:80"
+    depends_on:
+      - gateway
+    networks:
+      - korp-network
+
+networks:
+  korp-network:
+    driver: bridge
+
+volumes:
+  pgdata:

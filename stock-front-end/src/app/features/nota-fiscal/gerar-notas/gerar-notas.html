@@ -1,0 +1,53 @@
+<div class="page-header">
+  <span class="page-title">Notas Fiscais</span>
+</div>
+
+<!-- Erro global -->
+<div class="alert-erro" *ngIf="erro">
+  {{ erro }}
+</div>
+
+<div class="card">
+  <div class="card-title">Lista de notas</div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th style="width:80px">Número</th>
+          <th style="width:120px">Status</th>
+          <th>Itens</th>
+          <th style="width:200px">Ação</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let nota of notas">
+          <td><span class="code-badge">#{{ nota.number }}</span></td>
+<td>
+  <span class="status-pill"
+    [class.status-aberta]="nota.status === 'Aberta'"
+    [class.status-fechada]="nota.status === 'Fechada'">
+    {{ nota.status }}
+  </span>
+</td>
+<td>{{ nota.notaFiscalItens?.length || 0 }} produto(s)</td>
+          <td>
+            <div style="display:flex; gap:8px;">
+              <button class="btn-imprimir"
+                [disabled]="nota.status !== 'Aberta' || loadingId === nota.id"
+                (click)="imprimirNota(nota.id.toString())">
+                <span *ngIf="loadingId !== nota.id">Imprimir</span>
+                <span *ngIf="loadingId === nota.id" class="spinner"></span>
+              </button>
+
+              <button class="btn-pdf"
+                [disabled]="nota.status !== 'Fechada'"
+                (click)="baixarPDF(nota)">
+                PDF
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>16f43cae-cd2a-4bb9-9b62-72872a60786b</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.14" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.23.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nota_Fisacal.Infraestructure\Nota_Fiscal.Infraestructure.csproj" />
+    <ProjectReference Include="..\Nota_Fiscal.Infraestructure\Nota_Fiscal.Infraestructure.csproj" />
+    <ProjectReference Include="..\Nota_Fiscal.application\Nota_Fiscal.application.csproj" />
+    <ProjectReference Include="..\Nota_Fiscal.Domain\Nota_Fiscal.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
