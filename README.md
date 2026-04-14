@@ -69,4 +69,4 @@ Autor
 Welinton Gomes
 batistawelinton54@gmail.com
 Desafio Técnico — Korp ERP — Abril 2026
-Repositório: github.com/seu-usuario/Korp_Teste_WelintonGomes
+Repositório: github.com/welinton19/Korp_Teste_WelintonGomes
