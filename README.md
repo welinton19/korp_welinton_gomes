@@ -16,7 +16,7 @@ Pré-requisitos
     • Git
 Como Rodar
     1. Clone o repositório:
-git clone https://github.com/seu-usuario/Korp_Teste_WelintonGomes.git
+git clone https://github.com/welinton19/Korp_Teste_WelintonGomes.git
     2. Entre na pasta raiz do projeto:
 cd Korp_Teste_WelintonGomes
     3. Suba todos os containers:
